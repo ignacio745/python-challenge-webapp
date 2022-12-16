@@ -27,7 +27,7 @@ A bus company wants to start using technology and allow their users to book onli
 
 # Desired technology stack:
 * Python 
-* Flask / Fast API / Django / Any other
+* [Flask](https://flask.palletsprojects.com/en/2.2.x/) / [Fast API](https://fastapi.tiangolo.com/) / [Django](https://www.djangoproject.com/) / Any other
 * MongoDB / Postgress / SQLite  / Any other
 
 ## Submit your solution
