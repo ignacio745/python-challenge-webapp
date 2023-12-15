@@ -50,7 +50,8 @@ This is a web app version to the challenge
     * `DB_URL=postgresql+psycopg://username:password@localhost:port/database`
     * `SECRET_KEY=YourSecretKey`
     * `ALGORITHM=HS256`
-    * `ACCESS_TOKEN_EXPIRE_MINUTES=ExpTime`  
+    * `ACCESS_TOKEN_EXPIRE_MINUTES=ExpTime`
+    * `COOKIE_NAME=access_token`  
     Where you have to replace: 
     * `username`, `password`, `port` and `database` with actual username, password, port number and name of your postgres database
     * `YourSecretKey` with the key you want to use to create tokens, (you can generate one in linux with the command `openssl rand -hex 32`)
