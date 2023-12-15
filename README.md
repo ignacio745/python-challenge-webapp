@@ -35,3 +35,30 @@ A bus company wants to start using technology and allow their users to book onli
 Once you're done, please send us an email to [tech@ada-school.org](mailto:tech@ada-school.org) with the subject: TECH_CHALLENGE_[YOUR NAME] and do not forget to include the link to your repository with the solution. After you submit your code, we will review it and contact you to discuss next steps. 
 
 Good luck! 💪
+
+# Solution
+
+This is a web app version to the challenge
+
+## Requirements to run the web app
+
+1. Install the required packages in your python virtual env (venv, conda, etc.) by opening a terminal in the project folder and executing `pip install -r requirements.txt`
+
+2. Create a Postgres database
+
+3. Set up a `.env` file with the following lines:
+    * `DB_URL=postgresql+psycopg://username:password@localhost:port/database`
+    * `SECRET_KEY=YourSecretKey`
+    * `ALGORITHM=HS256`
+    * `ACCESS_TOKEN_EXPIRE_MINUTES=ExpTime`  
+    Where you have to replace: 
+    * `username`, `password`, `port` and `database` with actual username, password, port number and name of your postgres database
+    * `YourSecretKey` with the key you want to use to create tokens, (you can generate one in linux with the command `openssl rand -hex 32`)
+    * `ExpTime` with the time you want the session to last in minutes
+
+## Using the web app
+
+You can now test the web app, to do this:
+1. Run the `main.py` file 
+2. Click the URL showed in the terminal, it will open your browser
+3. Now you can use the web app
