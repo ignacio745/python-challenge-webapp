@@ -38,7 +38,7 @@ Good luck! 💪
 
 # Solution
 
-This is a web app version to the challenge
+This is a web app version solution to the challenge
 
 ## Requirements to run the web app
 
